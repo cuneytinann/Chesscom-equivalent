@@ -1,6 +1,6 @@
 **[English](#chesscom-equivalent)** · **[Türkçe](#turkce)**
 
-# chesscom-equivalent
+# Chesscom-equivalent
 
 A chess arbiter that plays by **Chess.com's rules** rather than FIDE's, in a single HTML file of **2,837 bytes** — and the same arbiter stripped of its board, in **1,161**. Two players, one screen. No libraries, no build step, no server. Download a file, double-click, play.
 
@@ -12,8 +12,8 @@ Part of the [Golfstack](https://www.fidelite.art/) project.
 
 | file | interface | bytes | GitHub Pages | project site |
 | --- | --- | --- | --- | --- |
-| `index.html` | clickable board, clock, Chess.com colours | 2,837 | [chesscom-equivalent](https://cuneytinann.github.io/chesscom-equivalent/) | [Chesscom-equivalent.html](https://www.fidelite.art/special/Chesscom-equivalent.html) |
-| `numerical_packed.html` | square numbers typed into a `prompt()` box, no board | 1,161 | [numerical_packed.html](https://cuneytinann.github.io/chesscom-equivalent/numerical_packed.html) | [Chesscom-equivalent_numerical.html](https://www.fidelite.art/special/Chesscom-equivalent_numerical.html) |
+| `index.html` | clickable board, clock, Chess.com colours | 2,837 | [Chesscom-equivalent](https://cuneytinann.github.io/Chesscom-equivalent/) | [Chesscom-equivalent.html](https://www.fidelite.art/special/Chesscom-equivalent.html) |
+| `numerical_packed.html` | square numbers typed into a `prompt()` box, no board | 1,161 | [numerical_packed.html](https://cuneytinann.github.io/Chesscom-equivalent/numerical_packed.html) | [Chesscom-equivalent_numerical.html](https://www.fidelite.art/special/Chesscom-equivalent_numerical.html) |
 
 On the project site both builds live under `special`, off to the side of the `L1`–`L3` ladder. They are not another rung on it; they follow a different rulebook.
 
@@ -123,7 +123,7 @@ The FIDE build on the project site has fifteen codes and calls insufficient mate
 - No engine, no takebacks, no FEN in or out, no PGN.
 - No coordinates around the board. It turns around every ply, and the status line keeps out of the way.
 
-For the full FIDE arbiter — fifteen codes, dead positions, eleven front ends — see [fidelite.art](https://www.fidelite.art/). For the lichess rulebook, see [lichess-equivalent](https://github.com/cuneytinann/lichess-equivalent).
+For the full FIDE arbiter — fifteen codes, dead positions, eleven front ends — see [fidelite.art](https://www.fidelite.art/). For the lichess rulebook, see [Lichess-equivalent](https://github.com/cuneytinann/Lichess-equivalent).
 
 ## Colours
 
@@ -245,7 +245,7 @@ One of those duplicates went away with the claims, though — the draw channel u
 ## Related
 
 - [FideLite](https://github.com/cuneytinann/FideLite) · [fidelite.art](https://www.fidelite.art/) — the full FIDE arbiter, fifteen result codes, eleven front ends
-- [lichess-equivalent](https://github.com/cuneytinann/lichess-equivalent) — the same exercise, one server over
+- [Lichess-equivalent](https://github.com/cuneytinann/Lichess-equivalent) — the same exercise, one server over
 - [Chess LUX](https://github.com/cuneytinann/Chess_LUX) — the other direction entirely: dead positions carried to 99.97%
 - [chessarbiter2kb](https://github.com/cuneytinann/chessarbiter2kb) — the same rules a level down, letters and numbers side by side
 - [chess1023byte](https://github.com/cuneytinann/chess1023byte) — the bare rules, packed, in 1,023 bytes
@@ -259,7 +259,7 @@ MIT
 
 <a id="turkce"></a>
 
-# chesscom-equivalent (Türkçe)
+# Chesscom-equivalent (Türkçe)
 
 FIDE'nin değil, **Chess.com'un kurallarıyla** oynayan bir satranç hakemi; tek bir HTML dosyasında **2.837 bayt** — ve aynı hakemin tahtasından soyulmuş hâli, **1.161** baytta. İki oyuncu, tek ekran. Kütüphane yok, derleme adımı yok, sunucu yok. Dosyayı indir, çift tıkla, oyna.
 
@@ -271,8 +271,8 @@ FIDE'nin değil, **Chess.com'un kurallarıyla** oynayan bir satranç hakemi; tek
 
 | dosya | arayüz | bayt | GitHub Pages | proje sitesi |
 | --- | --- | --- | --- | --- |
-| `index.html` | tıklanabilir tahta, saat, Chess.com renkleri | 2.837 | [chesscom-equivalent](https://cuneytinann.github.io/chesscom-equivalent/) | [Chesscom-equivalent.html](https://www.fidelite.art/special/Chesscom-equivalent.html) |
-| `numerical_packed.html` | `prompt()` kutusuna yazılan kare numaraları, tahta yok | 1.161 | [numerical_packed.html](https://cuneytinann.github.io/chesscom-equivalent/numerical_packed.html) | [Chesscom-equivalent_numerical.html](https://www.fidelite.art/special/Chesscom-equivalent_numerical.html) |
+| `index.html` | tıklanabilir tahta, saat, Chess.com renkleri | 2.837 | [Chesscom-equivalent](https://cuneytinann.github.io/Chesscom-equivalent/) | [Chesscom-equivalent.html](https://www.fidelite.art/special/Chesscom-equivalent.html) |
+| `numerical_packed.html` | `prompt()` kutusuna yazılan kare numaraları, tahta yok | 1.161 | [numerical_packed.html](https://cuneytinann.github.io/Chesscom-equivalent/numerical_packed.html) | [Chesscom-equivalent_numerical.html](https://www.fidelite.art/special/Chesscom-equivalent_numerical.html) |
 
 Proje sitesinde iki yapı da `special` altında, `L1`–`L3` merdiveninin yanında duruyor. Merdivenin bir basamağı değiller; başka bir kural kitabını takip ediyorlar.
 
@@ -382,7 +382,7 @@ Proje sitesindeki FIDE yapısının on beş kodu var ve yetersiz malzemeye `DP`,
 - Motor yok, geri alma yok, FEN girişi veya çıkışı yok, PGN yok.
 - Tahtanın çevresinde koordinat yok. Her yarım hamlede dönüyor, ve durum satırı yoldan çekiliyor.
 
-Tam FIDE hakemi için — on beş kod, ölü pozisyonlar, on bir ön yüz — [fidelite.art](https://www.fidelite.art/) adresine bak. Lichess kural kitabı için [lichess-equivalent](https://github.com/cuneytinann/lichess-equivalent).
+Tam FIDE hakemi için — on beş kod, ölü pozisyonlar, on bir ön yüz — [fidelite.art](https://www.fidelite.art/) adresine bak. Lichess kural kitabı için [Lichess-equivalent](https://github.com/cuneytinann/Lichess-equivalent).
 
 ## Renkler
 
@@ -504,7 +504,7 @@ Yine de o kopyalardan biri iddialarla birlikte gitti — beraberlik kanalı eski
 ## İlgili
 
 - [FideLite](https://github.com/cuneytinann/FideLite) · [fidelite.art](https://www.fidelite.art/) — tam FIDE hakemi, on beş sonuç kodu, on bir ön yüz
-- [lichess-equivalent](https://github.com/cuneytinann/lichess-equivalent) — aynı egzersiz, bir sunucu öteye
+- [Lichess-equivalent](https://github.com/cuneytinann/Lichess-equivalent) — aynı egzersiz, bir sunucu öteye
 - [Chess LUX](https://github.com/cuneytinann/Chess_LUX) — tam ters yön: ölü pozisyonlar %99,97'ye taşınmış
 - [chessarbiter2kb](https://github.com/cuneytinann/chessarbiter2kb) — aynı kurallar bir seviye aşağıda, harfler ve rakamlar yan yana
 - [chess1023byte](https://github.com/cuneytinann/chess1023byte) — çıplak kurallar, paketli, 1.023 baytta
